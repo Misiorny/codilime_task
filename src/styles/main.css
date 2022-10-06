@@ -11,6 +11,13 @@ html {
   scroll-behavior: smooth;
 }
 
+.main {
+  align-items: center;
+  text-align: center;
+  background-color: #ccc;
+  margin: 0 auto;
+}
+
 .wrapper {
   max-width: 1440px;
 }
