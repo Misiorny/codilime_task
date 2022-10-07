@@ -41,8 +41,6 @@ Created by Krzysztof Stankiewicz
 
 #### Here you can see my job
 
-*Something is wrong with GH pages. Doesn't work properly. Will fix it
-ASAP *
 [GitHub](https://github.com/Misiorny/task_web_dev_codilime)
 
 *Attention! Click bellow on your own responsibility! I have no idea
