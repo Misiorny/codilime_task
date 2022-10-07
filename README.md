@@ -31,7 +31,7 @@ Created by Krzysztof Stankiewicz
     - links are made without gatsby.js external links due to weak
       knowledge of framework,
 
-- Mobile version works properly on width 414px,
+- Mobile version works properly only on width 414px,
 - Not all is made like I wanted to due to lack of experience and time,
 - Solving problems have been done by [Google](https://www.google.pl/)
   and [stackoverflow](https://stackoverflow.com/), but destroy a lot
@@ -41,5 +41,10 @@ Created by Krzysztof Stankiewicz
 
 #### Here you can see my job
 
-[GitHub Pages]()  
-[Gatsby Cloud]()
+*Something is wrong with GH pages. Doesn't work properly. Will fix it
+ASAP *
+[GitHub](https://github.com/Misiorny/task_web_dev_codilime)
+
+*Attention! Click bellow on your own responsibility! I have no idea
+how it works, yet.*   
+[Gatsby](https://build-569566f7-7394-44ac-afce-06c750f9548e.gtsb.io/)
