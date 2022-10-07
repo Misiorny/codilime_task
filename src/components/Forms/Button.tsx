@@ -1,15 +1,13 @@
 import React from "react";
-import Icon from "../Pictures/Icon";
 
 interface Button {
-  btnText: string
-  // btnIcon: object
+  btnText: string,
 }
 
-function Button({btnText}: Button) {
+function Button({btnText}: Button,) {
   return (
-	  <button className="btn">{btnText}
-		<Icon iconPath="./src/images/icon.png" altText="Arrow Right"/>
+	  <button className="btn">
+		<p className="btn__text">{btnText}</p>
 	  </button>
   )
 }

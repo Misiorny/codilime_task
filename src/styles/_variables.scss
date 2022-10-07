@@ -1,14 +1,13 @@
-@use "./variables" as var;
+// COLORS
+$bg-color: #fff;
+$icon-color: #A9ACAC;
+$main-color: #29CC6A;
+$text-color: #2B2D26;
+$link-color: #00AEEF;
+// Variables below are not necessary but stay here if we change design concept
+$text-light-color: #fff;
+$bg-footer-color: #2B2D26;
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 62.5%;
-  scroll-behavior: smooth;
-}
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400&display=swap');
+$Roboto: 'Roboto', sans-serif;

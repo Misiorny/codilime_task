@@ -1,9 +1,12 @@
 import React from "react";
 
-function SubTitle() {
+interface SubTitle {
+  subtitleText: string
+}
+
+function SubTitle({subtitleText}: SubTitle) {
   return (
-	  <h3>
-	  </h3>
+	  <h3>{subtitleText}</h3>
   )
 }
 

@@ -1,10 +1,12 @@
 import React from "react";
 
-function ColoredText() {
-  return (
-	  <span>
+interface ColoredText {
+  colorText: string
+}
 
-	  </span>
+function ColoredText({colorText}: ColoredText) {
+  return (
+	  <span className="coloredText">{colorText}</span>
   )
 }
 

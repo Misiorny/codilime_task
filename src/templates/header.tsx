@@ -1,9 +1,11 @@
 import React from "react";
+import {NaviDesktop, NaviMobile} from "../components/Navbar";
 
 function Header() {
   return (
 	  <header className="header">
-		<h1>A qq</h1>
+		<NaviMobile/>
+		<NaviDesktop/>
 	  </header>
   )
 }

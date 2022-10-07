@@ -1,12 +1,12 @@
 import React from "react";
 
 interface ArticleParagraph {
-  text: string;
+  articleText: string;
 }
 
-function ArticleParagraph({text}: ArticleParagraph) {
+function ArticleParagraph({articleText}: ArticleParagraph) {
   return (
-	  <p className="articleParagraph">{text}</p>
+	  <p className="articleParagraph">{articleText}</p>
   )
 }
 

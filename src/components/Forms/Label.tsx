@@ -2,11 +2,12 @@ import React from "react";
 
 interface Label {
   labelText: string;
+  htmlFor: string;
 }
 
-function Label({labelText}: Label) {
+function Label({labelText, htmlFor}: Label) {
   return (
-	  <label className="label">{labelText}</label>
+	  <label className="label" htmlFor={htmlFor}>{labelText}</label>
   )
 }
 

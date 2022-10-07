@@ -1,8 +1,14 @@
 import React from "react";
 
-function Input() {
+interface Input {
+  type: string;
+  id: string;
+  name: string;
+}
+
+function Input({type, name, id}: Input) {
   return (
-	  < input className="input"/>
+	  < input className="input" type={type} name={name} id={id}/>
   )
 }
 

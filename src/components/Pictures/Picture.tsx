@@ -1,10 +1,17 @@
 import React from "react";
+import womanBig from '../../images/png/woman_big.png'
+import womanSmall from '../../images/png/woman_small.png'
 
-function Picture() {
+interface Picture {
+  pictureNameSource: string
+  pictureNameImg: string
+}
+
+function Picture({pictureNameSource, pictureNameImg}: Picture) {
   return (
 	  <picture>
-		<source srcSet="src/images/png/woman_small.png" media="(min-width: 414px)"/>
-		<img src="src/images/png/woman_big.png" alt="Women with laptop"/>
+		<source srcSet={pictureNameSource} media="(max-width: 414px)"/>
+		<img src={pictureNameImg} alt="Women with laptop"/>
 	  </picture>
   )
 }

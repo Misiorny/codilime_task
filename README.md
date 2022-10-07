@@ -1,57 +1,45 @@
-<p >
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 >
-  Gatsby minimal TypeScript starter
-</h1>
+# <img src="src/images/svg/codilime.svg" title="codilime logo" width="120"/> Recruitment Task
 
-## 🚀 Quick start
+Created by Krzysztof Stankiewicz
 
-1. **Create a Gatsby site.**
+**Created with:**
 
-   Use the Gatsby CLI to create a new site, specifying the minimal
-   TypeScript starter.
+<p><a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts"><img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" /></a></p>
+<p>first time ever !</p> 
 
-   ```shell
-   # create a new Gatsby site using the minimal TypeScript starter
-   npm init gatsby
-   ```
 
-2. **Start developing.**
+**And**
 
-   Navigate into your new site’s directory and start it up.
+<p> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>   <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
 
-   ```shell
-   cd my-gatsby-site/
-   npm run develop
-   ```
+## Important information
 
-3. **Open the code and start customizing!**
+**Created static web with React according to e-mail information**
 
-   Your site is now running at http://localhost:8000!
+> Only static layout needed.
 
-   Edit `src/pages/index_old.tsx` to see your site update in
-   real-time!
+- Hope, I understand it properly - use React hooks in minimum, change
+  on web was implement only by using CSS.
 
-4. **Learn more**
+#### Information about coding
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+- Hard to know what UI/UX designer idea was but made it with my sense
+  of beauty
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+    - semantic tags are used but hard to know which tag will be better
+      due to latin "Lorem" text,
+    - links are made without gatsby.js external links due to weak
+      knowledge of framework,
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+- Mobile version works properly on width 414px,
+- Not all is made like I wanted to due to lack of experience and time,
+- Solving problems have been done by [Google](https://www.google.pl/)
+  and [stackoverflow](https://stackoverflow.com/), but destroy a lot
+  of my time for coding,
+- Lack of experience and the related need to look for solutions is the
+  main reason for the poor level of task performance.
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+#### Here you can see my job
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click
-on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+[GitHub Pages]()  
+[Gatsby Cloud]()

@@ -1,3 +1,5 @@
+@use "./variables" as var;
+
 *,
 *::before,
 *::after {
@@ -11,13 +13,30 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: var.$bg-color;
+  font-family: var.$Roboto;
+  color: var.$text-color;
+}
+
 .main {
   align-items: center;
-  text-align: center;
-  background-color: #ccc;
   margin: 0 auto;
+  text-align: center;
 }
 
 .wrapper {
   max-width: 1440px;
 }
+
+//COMPONENTS STYLE
+.coloredText {
+  color: var.$main-color;
+}
+.mainTitle {
+  font-size: 4.8rem;
+  font-weight: bold;
+  line-height: 1.33;
+  text-align: left;
+}
+//TEMPLATES STYLE

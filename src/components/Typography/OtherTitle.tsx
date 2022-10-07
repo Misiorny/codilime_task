@@ -1,9 +1,12 @@
 import React from "react";
 
-function OtherTitle() {
+interface OtherTitle {
+  otherTitleText: string
+}
+
+function OtherTitle({otherTitleText}: OtherTitle) {
   return (
-	  <h4>
-	  </h4>
+	  <h4 className="otherTitle">{otherTitleText}</h4>
   )
 }
 
