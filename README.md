@@ -20,6 +20,20 @@ Created by Krzysztof Stankiewicz
 
 - Hope, I understand it properly - use React hooks in minimum, change
   on web was implement only by using CSS.
+-
+
+### TODO list
+
+- implement style - basic SASS/SCSS - Styled Components or Tailwind
+  CSS in the future,
+
+**Problems to resolve**
+
+- create RWD page - for width 414px and over 1200px,
+- solve problems with TS,
+- solve problems with props (mainly children props),
+- implement external links using Gatsby.js,
+- more ... what will find during coding
 
 #### Information about coding
 
@@ -44,5 +58,6 @@ Created by Krzysztof Stankiewicz
 [GitHub](https://github.com/Misiorny/task_web_dev_codilime)
 
 *Attention! Click bellow on your own responsibility! I have no idea
-how it works, yet.*   
+how it works, yet.*
+
 [Gatsby](https://build-569566f7-7394-44ac-afce-06c750f9548e.gtsb.io/)
