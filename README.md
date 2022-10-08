@@ -14,6 +14,12 @@ Created by Krzysztof Stankiewicz
 
 ## Important information
 
+> <font color="red">TASK IS NOT COMPLETE </font>  
+> <font color="yellow">I'm still working. I have to finish it till
+> Monday or Tuesday. </font>  
+> <font color="green">Strongly depends on free time but
+> possible </font>
+
 **Created static web with React according to e-mail information**
 
 > Only static layout needed.
