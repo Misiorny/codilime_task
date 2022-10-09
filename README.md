@@ -24,6 +24,8 @@ Created by Krzysztof Stankiewicz
 
 > Only static layout needed.
 
+[Version made with React only is here](https://github.com/Misiorny/task_web_dev_codilime)
+
 - Hope, I understand it properly - use React hooks in minimum, change
   on web was implement only by using CSS.
 -
@@ -35,7 +37,7 @@ Created by Krzysztof Stankiewicz
 
 **Problems to resolve**
 
-- create RWD page - for width 414px and over 1200px,
+- create good looks for RWD page - for width 414px and over 1200px,
 - solve problems with TS,
 - solve problems with props (mainly children props),
 - implement external links using Gatsby.js,
