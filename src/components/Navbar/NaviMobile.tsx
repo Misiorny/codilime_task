@@ -5,7 +5,7 @@ import Icon from "../Pictures";
 function NaviMobile() {
   return (
 	  <nav className="navigation-mobile">
-		<Icon iconPath="src/images/svg/checkcircle.svg" altText="Burger Icon"/>
+		<Icon iconName="quoteupIcon" altText="Burger Icon"/>
 		<NavList/>
 	  </nav>
   )
