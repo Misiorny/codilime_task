@@ -15,10 +15,9 @@ Created by Krzysztof Stankiewicz
 ## Important information
 
 > <font color="red">TASK IS NOT COMPLETE </font>  
-> <font color="yellow">I'm still working. I have to finish it till
-> Monday or Tuesday. </font>  
-> <font color="green">Strongly depends on free time but
-> possible </font>
+> <font color="yellow">I'm still working. I have to finish it, but
+> strongly depends on free time. </font>
+
 
 **Created static web with React according to e-mail information**
 
@@ -38,7 +37,8 @@ Created by Krzysztof Stankiewicz
 **Problems to resolve**
 
 - create good looks for RWD page - for width 414px and over 1200px,
-- solve problems with TS,
+- solve problems with TS - rendering pictures - partly solved by
+  changing webpack config file,
 - solve problems with props (mainly children props),
 - implement external links using Gatsby.js,
 - more ... what will find during coding
