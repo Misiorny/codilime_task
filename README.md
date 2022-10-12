@@ -27,7 +27,6 @@ Created by Krzysztof Stankiewicz
 
 - Hope, I understand it properly - use React hooks in minimum, change
   on web was implement only by using CSS.
--
 
 ### TODO list
 
@@ -53,7 +52,8 @@ Created by Krzysztof Stankiewicz
     - links are made without gatsby.js external links due to weak
       knowledge of framework,
 
-- Mobile version works properly only on width 414px,
+- Mobile version will work properly only on width 414px for first -
+  next create full RWD page,
 - Not all is made like I wanted to due to lack of experience and time,
 - Solving problems have been done by [Google](https://www.google.pl/)
   and [stackoverflow](https://stackoverflow.com/), but destroy a lot
@@ -66,6 +66,6 @@ Created by Krzysztof Stankiewicz
 [GitHub](https://github.com/Misiorny/task_web_dev_codilime)
 
 *Attention! Click bellow on your own responsibility! I have no idea
-how it works, yet.*
+how it works, yet. Not upgraded according to present GitHub repo*
 
 [Gatsby](https://build-569566f7-7394-44ac-afce-06c750f9548e.gtsb.io/)
