@@ -6,7 +6,7 @@ function AccordionItem() {
   return (
 	  <li className="accordion__item">
 		<OtherTitle otherTitleText="Arcu non odio"/>
-		<ArticleParagraph text="Sapien nec sagittis aliquam malesuada bibendum. Tempor nec feugiat nisl pretium."/>
+		<ArticleParagraph articleText="Sapien nec sagittis aliquam malesuada bibendum. Tempor nec feugiat nisl pretium."/>
 	  </li>
   )
 }

@@ -33,10 +33,24 @@ body {
 .coloredText {
   color: var.$main-color;
 }
+
 .mainTitle {
   font-size: 4.8rem;
-  font-weight: bold;
   line-height: 1.33;
+  font-weight: bold;
   text-align: left;
 }
+
+.navigation{
+
+  &-mobile{
+    display: flex;
+    flex-direction: column;
+    color: var.$main-color;
+  }
+  &-desktop{
+    display: none;
+  }
+}
+
 //TEMPLATES STYLE

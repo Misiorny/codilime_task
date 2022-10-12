@@ -1,10 +1,13 @@
 import React from "react";
-import Icon from "../Pictures";
 
-function Card() {
+interface Card {
+  iconName: JSX.Element;
+}
+
+function Card({iconName}: Card) {
   return (
 	  <div className="card">
-		<Icon altText="icon" iconName="scisorsIcon"/>
+		{iconName}
 	  </div>
   )
 }

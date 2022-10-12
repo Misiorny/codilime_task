@@ -1,11 +1,14 @@
 import React from "react";
 import {NavList} from "./index";
-import Icon from "../Pictures";
 
-function NaviMobile() {
+interface NaviMobile {
+  iconName: JSX.Element,
+}
+
+function NaviMobile({iconName}: NaviMobile) {
   return (
 	  <nav className="navigation-mobile">
-		<Icon iconName="quoteupIcon" altText="Burger Icon"/>
+		{iconName}
 		<NavList/>
 	  </nav>
   )

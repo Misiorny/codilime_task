@@ -49,7 +49,7 @@ const dataSvgIcons = [
   },
   {
 	id: 9,
-	src: '../../images/svg/logo_invision.svg',
+	src: '../../images/svg/invision.svg',
 	nameIcon: 'logoInvisionIcon',
 	alt: 'Invision Logo Icon'
   },

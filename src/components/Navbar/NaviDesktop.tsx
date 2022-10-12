@@ -1,13 +1,15 @@
 import React from "react";
 import {NavList} from "./index";
 import Button from "../Forms";
-import Icon from "../Pictures";
+import RightArrowIcon from "../Pictures/Icons/RightArrowIcon";
 
 function NaviDesktop() {
   return (
 	  <nav className="navigation-desktop">
 		<NavList/>
-		<Button btnText="Contact Us"><Icon iconName="rightarrowIcon" altText="Right Arrow"/></Button>
+		<Button
+			btnText="Contact Us" iconName={<RightArrowIcon/>}
+		></Button>
 	  </nav>
   )
 }

@@ -10,8 +10,8 @@ interface Picture {
 function Picture({pictureNameSource, pictureNameImg}: Picture) {
   return (
 	  <picture>
-		<source srcSet={pictureNameSource} media="(max-width: 414px)"/>
-		<img src={pictureNameImg} alt="Women with laptop"/>
+		<source srcSet={womanSmall} media="(max-width: 1200px)"/>
+		<img src={womanBig} alt="Women with laptop"/>
 	  </picture>
   )
 }

@@ -34,9 +34,18 @@ body {
 
 .mainTitle {
   font-size: 4.8rem;
-  font-weight: bold;
   line-height: 1.33;
+  font-weight: bold;
   text-align: left;
+}
+
+.navigation-mobile {
+  display: flex;
+  flex-direction: column;
+  color: #29CC6A;
+}
+.navigation-desktop {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */
