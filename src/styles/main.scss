@@ -29,7 +29,24 @@ body {
   max-width: 1440px;
 }
 
-//COMPONENTS STYLE
+//COMPONENTS STYLES
+//ARTICLES
+//FORMS
+//NAVBAR
+.navigation {
+  &-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-desktop {
+    display: none;
+  }
+}
+
+//OTHER
+//PICTURES
+//TYPOGRAPHY
 .coloredText {
   color: var.$main-color;
 }
@@ -41,16 +58,12 @@ body {
   text-align: left;
 }
 
-.navigation{
-
-  &-mobile{
-    display: flex;
-    flex-direction: column;
-    color: var.$main-color;
-  }
-  &-desktop{
-    display: none;
-  }
-}
-
 //TEMPLATES STYLE
+//ACCORDION
+//CARDS
+//FOOTER
+//FORM
+//HEADER
+//QUOTATION
+//SLIDER
+@import "./rwd";

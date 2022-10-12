@@ -6,7 +6,7 @@ interface ShortQuote {
 
 function ShortQuote({shortQuoteSentence}: ShortQuote) {
   return (
-	  <q className="shortQuote">{shortQuoteSentence}</q>
+	  <q className="quote">{shortQuoteSentence}</q>
   )
 }
 
