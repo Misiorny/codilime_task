@@ -63,7 +63,7 @@ Created by Krzysztof Stankiewicz
 
 #### Here you can see my job
 
-[GitHub](https://github.com/Misiorny/task_web_dev_codilime)
+[GitHub](https://github.com/Misiorny/codilime_task)
 
 *Attention! Click bellow on your own responsibility! I have no idea
 how it works, yet. Not upgraded according to present GitHub repo*
