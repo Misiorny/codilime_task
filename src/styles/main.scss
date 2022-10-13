@@ -31,7 +31,23 @@ body {
 
 //COMPONENTS STYLES
 //ARTICLES
+.article {
+  &__paragraph {
+    padding: 1em;
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+}
+
 //FORMS
+.btn {
+  background-color: var.$main-color;
+  &__text {
+    padding: .5em 1em;
+  }
+
+}
+
 //NAVBAR
 .navigation {
   &-mobile {
@@ -44,7 +60,69 @@ body {
   }
 }
 
+.navitems {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style: none;
+}
+
+.navitem {
+  display: inline;
+  margin: .25em;
+  box-shadow: 2px 3px var.$icon-color;
+  padding: 1.5em .5em;
+  cursor: pointer;
+  font-size: 1.6rem;
+  text-align: center;
+
+  &:hover {
+    background-color: var.$main-color;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: var.$text-color;
+
+    &:hover {
+      color: var.$text-light-color;
+    }
+  }
+}
+
+.burger {
+  background-color: var.$bg-footer-color;
+
+  .coloredText {
+    padding: 1em 2em;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-weight: bold;
+  }
+
+  .icon {
+    padding: 1em 2em;
+
+    &__img {
+      width: 25vw;
+    }
+  }
+}
+
 //OTHER
+.accordion{
+  &__item{
+    padding-left: 1.5em;
+    font-size: 1.6rem;
+    text-align: left;
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+    &::marker{
+      margin-left: 1.5em;
+    }
+  }
+}
 //PICTURES
 //TYPOGRAPHY
 .coloredText {
@@ -52,18 +130,30 @@ body {
 }
 
 .mainTitle {
-  font-size: 4.8rem;
-  line-height: 1.33;
+  font-size: 2.4rem;
+  line-height: 1.25;
+  font-weight: bold;
+  text-align: center;
+  padding: 1em 2em;
+}
+.otherTitle{
+  font-size: 1.8rem;
   font-weight: bold;
   text-align: left;
+
 }
 
 //TEMPLATES STYLE
 //ACCORDION
+
 //CARDS
 //FOOTER
 //FORM
 //HEADER
 //QUOTATION
 //SLIDER
+.slider {
+  margin: 2em 0;
+}
+
 @import "./rwd";

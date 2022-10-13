@@ -1,12 +1,16 @@
 import React from "react";
-import {OtherTitle} from "../Typography";
-import ArticleParagraph from "../Articles";
+import {OtherTitle, ArticleParagraph} from "../Typography";
 
-function AccordionItem() {
+interface AccordionItem {
+  otherTitleText: string;
+  articleText: string;
+}
+
+function AccordionItem({otherTitleText, articleText}: AccordionItem) {
   return (
 	  <li className="accordion__item">
-		<OtherTitle otherTitleText="Arcu non odio"/>
-		<ArticleParagraph articleText="Sapien nec sagittis aliquam malesuada bibendum. Tempor nec feugiat nisl pretium."/>
+		<OtherTitle otherTitleText={otherTitleText}/>
+		<ArticleParagraph articleText={articleText}/>
 	  </li>
   )
 }

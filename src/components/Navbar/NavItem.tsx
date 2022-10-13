@@ -9,7 +9,7 @@ interface NavItem {
 function NavItem({to, navText}: NavItem) {
   return (
 	  <li className="navitem">
-		<Link to={to}>{navText}</Link>
+		<Link className="navitem__link" to={to}>{navText}</Link>
 	  </li>
   )
 }

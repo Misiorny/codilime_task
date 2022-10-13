@@ -1,6 +1,5 @@
 import React from "react";
-import {SubTitle} from "../components/Typography";
-import {Quote, ShortQuote} from "../components/Articles";
+import {SubTitle, Quote, ShortQuote} from "../components/Typography";
 import {
   InvisionIcon, QuoteDownIcon,
   QuoteUpIcon

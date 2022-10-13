@@ -6,7 +6,9 @@ interface ArticleParagraph {
 
 function ArticleParagraph({articleText}: ArticleParagraph) {
   return (
-	  <p className="articleParagraph">{articleText}</p>
+	  <div className="article">
+		<p className="article__paragraph">{articleText}</p>
+	  </div>
   )
 }
 

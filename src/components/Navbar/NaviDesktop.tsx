@@ -7,9 +7,7 @@ function NaviDesktop() {
   return (
 	  <nav className="navigation-desktop">
 		<NavList/>
-		<Button
-			btnText="Contact Us" iconName={<RightArrowIcon/>}
-		></Button>
+		<Button btnText="Contact Us" iconName={<RightArrowIcon/>}/>
 	  </nav>
   )
 }
