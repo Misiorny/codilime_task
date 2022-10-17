@@ -1,9 +1,12 @@
 import React from "react";
 
-function ArticleTitle() {
+interface ArticleTitle {
+  artTitleText: string
+}
+
+function ArticleTitle({artTitleText}: ArticleTitle) {
   return (
-	  <h2>
-	  </h2>
+	  <h2 className="articleTitle">{artTitleText}</h2>
   )
 }
 

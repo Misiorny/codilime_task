@@ -6,7 +6,7 @@ interface SubTitle {
 
 function SubTitle({subtitleText}: SubTitle) {
   return (
-	  <h3>{subtitleText}</h3>
+	  <h3 className="subTitle">{subtitleText}</h3>
   )
 }
 
