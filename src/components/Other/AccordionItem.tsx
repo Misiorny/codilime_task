@@ -6,7 +6,10 @@ interface AccordionItem {
   articleText: string;
 }
 
-function AccordionItem({otherTitleText, articleText}: AccordionItem) {
+function AccordionItem({
+						 otherTitleText,
+						 articleText,
+					   }: AccordionItem) {
   return (
 	  <li className="accordion__item">
 		<OtherTitle otherTitleText={otherTitleText}/>
