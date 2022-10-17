@@ -165,7 +165,8 @@ body {
   font-weight: bold;
   text-align: center;
 }
-.subTitle{
+
+.subTitle {
   font-size: 1.8rem;
   font-weight: bold;
 }
@@ -177,9 +178,9 @@ body {
 }
 
 .quote {
+  padding: 1em 2em;
   font-size: 1.4rem;
   line-height: 1.5;
-  padding: 1em 2em;
   text-align: left;
 
   &__short {
@@ -189,14 +190,42 @@ body {
 
 //TEMPLATES STYLE
 //ACCORDION
+.accordion {
+  margin: 2em 0 4em 0;
+}
+
 //CARDS
+.cards {
+  margin: 2em 0 4em;
+}
+
 //FOOTER
+.footer {
+  &__mobile {
+    margin: 2em 0;
+  }
+
+  &__footer {
+    .article__paragraph {
+      font-size: 1.2rem;
+    }
+  }
+}
+
 //FORM
+.subscription {
+  margin: 2em 0 4em;
+}
+
 //HEADER
 //QUOTATION
+.quotation {
+  margin: 2em 0 4em;
+}
+
 //SLIDER
 .slider {
-  margin: 2em 0;
+  margin: 2em 0 4em;
 }
 
 @import "./rwd";

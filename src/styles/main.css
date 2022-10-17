@@ -147,17 +147,40 @@ body {
 }
 
 .quote {
+  padding: 1em 2em;
   font-size: 1.4rem;
   line-height: 1.5;
-  padding: 1em 2em;
   text-align: left;
 }
 .quote__short {
   font-size: 1.4rem;
 }
 
-.slider {
+.accordion {
+  margin: 2em 0 4em 0;
+}
+
+.cards {
+  margin: 2em 0 4em;
+}
+
+.footer__mobile {
   margin: 2em 0;
+}
+.footer__footer .article__paragraph {
+  font-size: 1.2rem;
+}
+
+.subscription {
+  margin: 2em 0 4em;
+}
+
+.quotation {
+  margin: 2em 0 4em;
+}
+
+.slider {
+  margin: 2em 0 4em;
 }
 
 /*# sourceMappingURL=main.css.map */
