@@ -59,6 +59,10 @@ body {
   display: none;
 }
 
+.internalLink {
+  text-decoration: none;
+}
+
 .navitems {
   display: none;
   flex-wrap: wrap;
@@ -164,11 +168,25 @@ body {
   margin: 2em 0 4em;
 }
 
-.footer__mobile {
+.footer {
   margin: 2em 0;
+  background-color: #2B2D26;
+  color: #fff;
+}
+.footer__footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer__footer .article__paragraph {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  text-align: center;
+}
+.footer__footer .internalLink {
+  color: #fff;
+}
+.footer__footer .internalLink:hover {
+  color: #29CC6A;
 }
 
 .subscription {

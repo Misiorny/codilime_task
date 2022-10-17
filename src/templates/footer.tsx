@@ -1,16 +1,16 @@
 import React from "react";
 import {ArticleParagraph} from "../components/Typography";
-import {Link} from "gatsby";
+import {InternalLink} from "../components/Navigation";
 
 function Footer() {
   return (
-	  <footer className="footer__mobile">
+	  <footer className="footer">
 		<div className="footer__lists">
 		</div>
 		<footer className="footer__footer">
 		  <ArticleParagraph articleText="© 2003 - 2022 Carrot cake sweet pie Sp. z o.o. All rights reserved."/>
 		  <ArticleParagraph articleText="Legal"/>
-		  <Link to="/overview">Privacy policy</Link>
+		  <InternalLink navText="Privacy policy" to="/overview"/>
 		  <ArticleParagraph articleText="Proud to be Open Source"/>
 		</footer>
 	  </footer>
