@@ -8,7 +8,8 @@ interface Button {
 function Button({btnText, iconName}: Button) {
   return (
 	  <button className="btn" type="button">
-		<p className="btn__text">{btnText}{iconName}</p>
+		<p className="btn__text">{btnText}</p>
+		{iconName}
 	  </button>
   )
 }

@@ -36,9 +36,12 @@ body {
 }
 
 .btn {
+  display: flex;
+  margin: 0.25em auto;
   border: #29CC6A;
   padding: 0.5em 1em;
   background-color: #29CC6A;
+  cursor: pointer;
 }
 .btn__text {
   padding: 0.5em 1em;
@@ -93,6 +96,7 @@ body {
 
 .burger {
   background-color: #2B2D26;
+  cursor: pointer;
 }
 .burger .coloredText {
   padding: 1em 2em;
@@ -108,7 +112,8 @@ body {
 }
 
 .accordion__item {
-  padding-left: 1.5em;
+  position: relative;
+  padding-left: 1em;
   font-size: 1.6rem;
   text-align: left;
   list-style-type: decimal-leading-zero;
@@ -116,6 +121,21 @@ body {
 }
 .accordion__item::marker {
   margin-left: 1.5em;
+}
+.accordion__item .otherTitle {
+  padding-top: 0.5em;
+}
+.accordion__item .icon {
+  position: absolute;
+  top: 1em;
+  right: 3em;
+  cursor: pointer;
+}
+.accordion__item .article {
+  border-bottom: 2px solid #A9ACAC;
+}
+.accordion__item .article__paragraph {
+  padding: 1em 2em 1em 0;
 }
 
 .icon__img {
@@ -163,6 +183,10 @@ body {
 .accordion {
   margin: 2em 0 4em 0;
 }
+.accordion .orderedList {
+  width: 400px;
+  margin: 0 auto;
+}
 
 .cards {
   margin: 2em 0 4em;
@@ -199,6 +223,10 @@ body {
 
 .slider {
   margin: 2em 0 4em;
+}
+.slider__article {
+  width: 400px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=main.css.map */

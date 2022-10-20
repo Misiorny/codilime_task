@@ -42,9 +42,12 @@ body {
 
 //FORMS
 .btn {
+  display: flex;
+  margin: .25em auto;
   border: var.$main-color;
   padding: .5em 1em;
   background-color: var.$main-color;
+  cursor: pointer;
 
   &__text {
     padding: .5em 1em;
@@ -52,7 +55,6 @@ body {
     font-weight: bold;
 
     .icon {
-      //padding: .5em 1em;
       &__img {
         width: 1.5em;
         height: 1.5em;
@@ -73,7 +75,8 @@ body {
     display: none;
   }
 }
-.internalLink{
+
+.internalLink {
   text-decoration: none;
 }
 
@@ -110,6 +113,7 @@ body {
 
 .burger {
   background-color: var.$bg-footer-color;
+  cursor: pointer;
 
   .coloredText {
     padding: 1em 2em;
@@ -129,8 +133,10 @@ body {
 
 //OTHER
 .accordion {
+
   &__item {
-    padding-left: 1.5em;
+    position: relative;
+    padding-left: 1em;
     font-size: 1.6rem;
     text-align: left;
     list-style-type: decimal-leading-zero;
@@ -138,6 +144,27 @@ body {
 
     &::marker {
       margin-left: 1.5em;
+    }
+
+    .otherTitle {
+      padding-top: .5em;
+    }
+
+
+
+    .icon {
+      position: absolute;
+      top: 1em;
+      right: 3em;
+      cursor: pointer;
+    }
+
+    .article {
+      border-bottom: 2px solid var.$icon-color;
+    }
+
+    .article__paragraph {
+      padding: 1em 2em 1em 0;
     }
   }
 }
@@ -195,6 +222,10 @@ body {
 //ACCORDION
 .accordion {
   margin: 2em 0 4em 0;
+  .orderedList {
+    width: 400px;
+    margin: 0 auto;
+  }
 }
 
 //CARDS
@@ -217,9 +248,11 @@ body {
       font-size: 1rem;
       text-align: center;
     }
-    .internalLink{
+
+    .internalLink {
       color: var.$text-light-color;
-      &:hover{
+
+      &:hover {
         color: var.$main-color;
       }
     }
@@ -240,6 +273,10 @@ body {
 //SLIDER
 .slider {
   margin: 2em 0 4em;
+  &__article{
+    width: 400px;
+    margin: 0 auto;
+  }
 }
 
 @import "./rwd";
