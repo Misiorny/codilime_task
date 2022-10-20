@@ -113,7 +113,7 @@ body {
 
 .accordion__item {
   position: relative;
-  padding-left: 1em;
+  padding: 0 1em 0 1em;
   font-size: 1.6rem;
   text-align: left;
   list-style-type: decimal-leading-zero;
@@ -184,8 +184,8 @@ body {
   margin: 2em 0 4em 0;
 }
 .accordion .orderedList {
-  width: 400px;
   margin: 0 auto;
+  width: 400px;
 }
 
 .cards {
@@ -225,8 +225,8 @@ body {
   margin: 2em 0 4em;
 }
 .slider__article {
-  width: 400px;
   margin: 0 auto;
+  width: 400px;
 }
 
 /*# sourceMappingURL=main.css.map */
