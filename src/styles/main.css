@@ -28,13 +28,6 @@ body {
   max-width: 1440px;
 }
 
-.article__paragraph {
-  padding: 1em;
-  font-size: 1.4rem;
-  line-height: 1.5;
-  text-align: left;
-}
-
 .btn {
   display: flex;
   margin: 0.25em auto;
@@ -144,6 +137,9 @@ body {
 }
 
 .article__paragraph {
+  padding: 1em;
+  font-size: 1.4rem;
+  line-height: 1.5;
   text-align: left;
 }
 
@@ -220,13 +216,26 @@ body {
 .quotation {
   margin: 2em 0 4em;
 }
+.quotation .subTitle {
+  padding: 1em;
+  line-height: 1.5;
+}
+.quotation__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em 2em;
+}
+.quotation__text {
+  border-left: 3px solid #29CC6A;
+}
 
 .slider {
   margin: 2em 0 4em;
 }
 .slider__article {
   margin: 0 auto;
-  width: 400px;
+  padding-right: 1em;
 }
 
 /*# sourceMappingURL=main.css.map */
