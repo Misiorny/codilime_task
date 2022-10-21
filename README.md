@@ -38,7 +38,7 @@ Created by Krzysztof Stankiewicz
 - create good looks for RWD page - for width 414px and over 1200px,
 - solve problems with TS - rendering pictures - partly solved by
   changing webpack config file,
-- solve problems with props (mainly children props),
+- solve problems with props (mainly children props) *solved*,
 - implement external links using Gatsby.js,
 - more ... what will find during coding
 
