@@ -19,7 +19,7 @@ const dataSvgIcons = [
   },
   {
 	id: 4,
-	src: '../../images/svg/codilime.svg',
+	src: '../../images/svg/favicon.ico',
 	nameIcon: 'codilimeIcon',
 	alt: 'Codilime Icon'
   },

@@ -9,7 +9,10 @@ interface ExternalLink {
 
 function ExternalLink({href, target, rel, labelText}: ExternalLink) {
   return (
-	  <a href={href} target={target} rel={rel}>{labelText}</a>
+	  <p className="externalLink__text">
+		<a className="externalLink__link" href={href} target={target} rel={rel}>{labelText}</a>
+		<strong className="arrowSignRight">   &#8250;</strong>
+	  </p>
   )
 }
 

@@ -1,7 +1,7 @@
 import React from "react";
 
 interface ArticleParagraph {
-  articleText: string;
+  articleText: JSX.Element | string;
 }
 
 function ArticleParagraph({articleText}: ArticleParagraph) {

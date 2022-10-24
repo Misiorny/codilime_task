@@ -55,6 +55,18 @@ body {
 }
 
 //NAVIGATION
+.externalLink__text {
+  position: absolute;
+  bottom: .5em;
+  right: 1em;
+  font-size: 1.4rem;
+}
+
+.arrowSignRight {
+  font-size: 2rem;
+  color: var.$main-color;
+}
+
 .navigation {
   &-mobile {
     display: flex;
@@ -156,6 +168,35 @@ body {
   }
 }
 
+.card {
+  position: relative;
+  margin: 1em;
+  box-shadow: 10px 5px 5px var.$icon-color;
+  border-radius: 3px;
+  width: 165px;
+  height: 135px;
+
+  &:nth-child(3) {
+    background-color: var.$main-color;
+
+    .externalLink__link, .externalLink__text, .arrowSignRight {
+      color: var.$text-light-color;
+    }
+  }
+
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    &__img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+
 //PICTURES
 .icon {
   &__img {
@@ -221,12 +262,27 @@ body {
 
 //CARDS
 .cards {
-  margin: 2em 0 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em 0;
+
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 4em 1em;
+  }
+
+  &__content {
+    padding: 1em 2em 1em 1em;
+  }
 }
 
 //FOOTER
 .footer {
-  margin: 2em 0;
+  padding: 2em 0;
   background-color: var.$bg-footer-color;
   color: var.$text-light-color;
 
@@ -252,7 +308,40 @@ body {
 
 //FORM
 .subscription {
-  margin: 2em 0 4em;
+  display: flex;
+  flex-direction: column;
+  margin: 2em 0 0 0;
+  background-color: var.$main-color;
+
+  .subTitle {
+    padding: 1.5em;
+    font-size: 1.4rem;
+    color: var.$text-light-color;
+  }
+
+  .btn {
+    //margin: 0;
+    box-shadow: 5px 2px 3px var.$icon-color;
+    border: 1px solid var.$text-light-color;
+    padding: .5em 1em;
+
+    &__text {
+      text-align: center;
+      color: var.$text-light-color;
+    }
+  }
+
+  .input {
+    margin: .5em 2em;
+    font-size: 2rem;
+  }
+
+  .label {
+    padding: .5em 1em;
+    font-size: 1.4rem;
+    color: var.$text-light-color;
+    margin: .25em;
+  }
 }
 
 //HEADER
@@ -263,24 +352,41 @@ body {
   .subTitle {
     padding: 1em;
     line-height: 1.5;
-  }
-
-  &__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1em 2em;
-
-
+    color: var.$main-color;
   }
 
   &__text {
+    padding: 2em 0;
     border-left: 3px solid var.$main-color;
   }
 
-  //.icon{
-  //  left: 0;
-  //}
+  &__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em .25em;
+
+    .icon:nth-child(1) {
+      position: absolute;
+      left: 4em;
+    }
+
+    .icon:nth-child(2) {
+      position: absolute;
+      bottom: 10em;
+      right: 4em;
+    }
+
+    .quote__short {
+      padding: 1em 2em;
+    }
+  }
+
+  .invisionicon {
+    width: 15em;
+    height: 5em;
+    padding: 1em 2em;
+  }
 }
 
 //SLIDER
@@ -290,7 +396,6 @@ body {
   &__article {
     margin: 0 auto;
     padding-right: 1em;
-    //width: 400px;
   }
 }
 

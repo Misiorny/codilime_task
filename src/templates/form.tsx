@@ -6,10 +6,9 @@ import {Empty} from "../components/Pictures/Icons";
 function Form() {
   return (
 	  <form className="subscription">
-		<SubTitle subtitleText="Massa tempor nec feugiat nisl pretium fusce"/>
-		<Input id="email" name="email" type="email"/><Button
-		  iconName={<Empty/>} btnText="Subscribe"
-	  />
+		<SubTitle subtitleText="Subscribe to our newsletter"/>
+		<Input id="email" name="email" type="email"/>
+		<Button iconName={<Empty/>} btnText="Subscribe"/>
 		<Label htmlFor="email" labelText="Chupa chups gummi bears shortbread candy "/>
 	  </form>
   )

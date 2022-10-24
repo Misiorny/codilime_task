@@ -1,9 +1,12 @@
 import React from "react";
 
-function ImportantText() {
+interface ImportantText {
+  importantText: string
+}
+
+function ImportantText({importantText}: ImportantText) {
   return (
-	  <strong>
-	  </strong>
+	  <strong>{importantText}</strong>
   )
 }
 

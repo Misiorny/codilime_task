@@ -47,6 +47,18 @@ body {
   padding-top: 0.5em;
 }
 
+.externalLink__text {
+  position: absolute;
+  bottom: 0.5em;
+  right: 1em;
+  font-size: 1.4rem;
+}
+
+.arrowSignRight {
+  font-size: 2rem;
+  color: #29CC6A;
+}
+
 .navigation-mobile {
   display: flex;
   flex-direction: column;
@@ -131,6 +143,31 @@ body {
   padding: 1em 2em 1em 0;
 }
 
+.card {
+  position: relative;
+  margin: 1em;
+  box-shadow: 10px 5px 5px #A9ACAC;
+  border-radius: 3px;
+  width: 165px;
+  height: 135px;
+}
+.card:nth-child(3) {
+  background-color: #29CC6A;
+}
+.card:nth-child(3) .externalLink__link, .card:nth-child(3) .externalLink__text, .card:nth-child(3) .arrowSignRight {
+  color: #fff;
+}
+.card .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card .icon__img {
+  width: 40px;
+  height: 40px;
+}
+
 .icon__img {
   width: 2em;
   height: 2em;
@@ -185,11 +222,24 @@ body {
 }
 
 .cards {
-  margin: 2em 0 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em 0;
+}
+.cards__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 4em 1em;
+}
+.cards__content {
+  padding: 1em 2em 1em 1em;
 }
 
 .footer {
-  margin: 2em 0;
+  padding: 2em 0;
   background-color: #2B2D26;
   color: #fff;
 }
@@ -210,7 +260,34 @@ body {
 }
 
 .subscription {
-  margin: 2em 0 4em;
+  display: flex;
+  flex-direction: column;
+  margin: 2em 0 0 0;
+  background-color: #29CC6A;
+}
+.subscription .subTitle {
+  padding: 1.5em;
+  font-size: 1.4rem;
+  color: #fff;
+}
+.subscription .btn {
+  box-shadow: 5px 2px 3px #A9ACAC;
+  border: 1px solid #fff;
+  padding: 0.5em 1em;
+}
+.subscription .btn__text {
+  text-align: center;
+  color: #fff;
+}
+.subscription .input {
+  margin: 0.5em 2em;
+  font-size: 2rem;
+}
+.subscription .label {
+  padding: 0.5em 1em;
+  font-size: 1.4rem;
+  color: #fff;
+  margin: 0.25em;
 }
 
 .quotation {
@@ -219,15 +296,34 @@ body {
 .quotation .subTitle {
   padding: 1em;
   line-height: 1.5;
-}
-.quotation__content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1em 2em;
+  color: #29CC6A;
 }
 .quotation__text {
+  padding: 2em 0;
   border-left: 3px solid #29CC6A;
+}
+.quotation__content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 2em 0.25em;
+}
+.quotation__content .icon:nth-child(1) {
+  position: absolute;
+  left: 4em;
+}
+.quotation__content .icon:nth-child(2) {
+  position: absolute;
+  bottom: 10em;
+  right: 4em;
+}
+.quotation__content .quote__short {
+  padding: 1em 2em;
+}
+.quotation .invisionicon {
+  width: 15em;
+  height: 5em;
+  padding: 1em 2em;
 }
 
 .slider {
